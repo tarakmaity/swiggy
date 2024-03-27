@@ -1,0 +1,72 @@
+.header{
+    /* display: inline-flex;
+    position: fixed;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.37);
+    padding: 10px 20px;
+    top: 0;
+    width: 100%;
+     */
+     box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     height: 80px;
+     background: #fff;
+     z-index: 1000;
+     will-change: transform;
+     transform: translateZ(0);
+     transition: transform .3s ease;
+     contain: size layout style;
+     padding: 0 20px;
+}
+   
+.navbar ul{
+    display: flex;
+    gap: 7rem;
+    margin-left: 33rem;
+    margin-top: -2rem;
+}
+.navbar ul li{
+   list-style-type: none;
+   font-weight: 1000;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgba(54, 52, 52, 0.747);
+}
+.navbar ul li a:hover{
+    color: rgb(255, 157, 9);
+}
+.header img{
+    width: 95px;
+    height: 45px;
+    margin-top: 1rem;
+}
+.card-header{
+    margin-top: 7rem;
+   display: flex;
+   flex-wrap: wrap;
+}
+.card-header img {
+    height: 15rem;
+    width: 17rem;
+    border-radius: 20px;
+    
+    margin-left: 8rem;
+}
+.card-header h3 {
+    margin-left: 140px;
+    margin-top: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-header p {
+    margin-left: 140px;
+    margin-top: -9px;
+    font-size:larger;
+    font-weight: 200;
+}
+.card-hover:hover{
+    border: 1px black solid;
+    
+}
