@@ -1,11 +1,4 @@
 .header{
-    /* display: inline-flex;
-    position: fixed;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.37);
-    padding: 10px 20px;
-    top: 0;
-    width: 100%;
-     */
      box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
      position: fixed;
      top: 0;
@@ -46,23 +39,19 @@
 .card-header{
     margin-top: 7rem;
    display: flex;
-   flex-wrap: wrap;
+  
 }
 .card-header img {
     height: 15rem;
     width: 17rem;
     border-radius: 20px;
-    
+    margin-left: 8rem;
+   
+}
+.card-contain{
     margin-left: 8rem;
 }
-.card-header h3 {
-    margin-left: 140px;
-    margin-top: 1px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.main-card{
+    flex-wrap: wrap;
 }
-.card-header p {
-    margin-left: 140px;
-    margin-top: -9px;
-    font-size:larger;
-    font-weight: 200;
-}
+
